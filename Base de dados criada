@@ -90,7 +90,6 @@ CREATE TABLE [dbo].[TB_EMPLOYEES](
 	[SALARIO] [decimal](5, 2) NOT NULL,
 	[ID_DEPTO] [int] NOT NULL,
 	[DT_CONTRATACAO] [date] NOT NULL,
-	[DT_DEMISSAO] [date] NULL,
 	[USER_LOGIN_INSERT] [nvarchar](50) NOT NULL,
 	[USER_DATE_INSERT] [datetime] NOT NULL,
 	[USER_LOGIN_UPDATE] [nvarchar](50) NULL,
